@@ -13,11 +13,13 @@ export class NavbarComponent implements OnInit{
     this.items = [
       {
         label: 'Home',
-        icon: 'pi pi-fw pi-power-off'
+        icon: 'pi pi-fw pi-power-off',
+        routerLink: '/home',
       },
       {
         label: 'Flights',
-        icon: 'pi pi-fw pi-power-off'
+        icon: 'pi pi-fw pi-power-off',
+        routerLink: 'flights/flights-search',
       }
     ];
   }
